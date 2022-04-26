@@ -1,16 +1,16 @@
 <?php
 
 /**
- * @package    Vansteen\Sendinblue
+ * @package    Sujith\Sendinblue
  * @author     Thomas Van Steenwinckel <code@1234.pm>
- * @link       https://github.com/vansteen/laravel-sendinblue
- * @license    https://github.com/vansteen/laravel-sendinblue/blob/master/license.md (MIT License)
+ * @link       https://github.com/Sujith/laravel-sendinblue
+ * @license    https://github.com/Sujith/laravel-sendinblue/blob/master/license.md (MIT License)
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Vansteen\Sendinblue;
+namespace Sujith\Sendinblue;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,7 +24,7 @@ class SendinblueServiceProvider extends ServiceProvider
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
             // Publishing the configuration file. Use :
-            // php artisan vendor:publish --provider="Vansteen\Sendinblue\SendinblueServiceProvider"
+            // php artisan vendor:publish --provider="Sujith\Sendinblue\SendinblueServiceProvider"
             $this->publishes([
                 __DIR__ . '/../config/sendinblue.php' => config_path('sendinblue.php'),
             ], 'sendinblue.config');

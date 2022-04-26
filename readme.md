@@ -15,7 +15,7 @@ The package simply provides a Laravel service provider, facade and config file f
 You can install this package via Composer using:
 
 ```bash
-composer require vansteen/laravel-sendinblue
+composer require sujith2014/laravel-sendinblue
 ```
 
 For Laravel <5.5, you must also install the service provider and the facade to your `config/app.php`:
@@ -24,7 +24,7 @@ For Laravel <5.5, you must also install the service provider and the facade to y
 // config/app.php
 'providers' => [
     ...
-    Vansteen\Sendinblue\SendinblueServiceProvider::class,
+    Sujith\Sendinblue\SendinblueServiceProvider::class,
     ...
 ];
 ```
@@ -33,7 +33,7 @@ For Laravel <5.5, you must also install the service provider and the facade to y
 // config/app.php
 'aliases' => [
     ...
-    'Sendinblue' => Vansteen\Sendinblue\Facades\Sendinblue::class,
+    'Sendinblue' => Sujith\Sendinblue\Facades\Sendinblue::class,
 ];
 ```
 
@@ -59,7 +59,7 @@ To test it, you can add the folowing code in routes.php.
 ```php
 // routes.php
 ...
-use Vansteen\Sendinblue\Facades\Sendinblue;
+use Sujith\Sendinblue\Facades\Sendinblue;
 
 Route::get('/test', function () {
 
@@ -113,17 +113,17 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://poser.pugx.org/vansteen/laravel-sendinblue/v/stable
-[ico-downloads]: https://poser.pugx.org/vansteen/laravel-sendinblue/downloads
-[ico-travis]: https://travis-ci.org/vansteen/laravel-sendinblue.svg?branch=master
-[ico-coverage]: https://coveralls.io/repos/github/vansteen/laravel-sendinblue/badge.svg?branch=master
-[ico-code-quality]: https://scrutinizer-ci.com/g/vansteen/laravel-sendinblue/badges/quality-score.png?b=master
+[ico-version]: https://poser.pugx.org/Sujith/laravel-sendinblue/v/stable
+[ico-downloads]: https://poser.pugx.org/Sujith/laravel-sendinblue/downloads
+[ico-travis]: https://travis-ci.org/Sujith/laravel-sendinblue.svg?branch=master
+[ico-coverage]: https://coveralls.io/repos/github/Sujith/laravel-sendinblue/badge.svg?branch=master
+[ico-code-quality]: https://scrutinizer-ci.com/g/Sujith/laravel-sendinblue/badges/quality-score.png?b=master
 [ico-styleci]: https://github.styleci.io/repos/134865450/shield?style=flat
-[ico-license]: https://poser.pugx.org/vansteen/laravel-sendinblue/license
-[link-packagist]: https://packagist.org/packages/vansteen/laravel-sendinblue
-[link-downloads]: https://packagist.org/packages/vansteen/laravel-sendinblue
-[link-travis]: https://travis-ci.org/vansteen/laravel-sendinblue
-[link-code-quality]: https://scrutinizer-ci.com/g/vansteen/laravel-sendinblue
+[ico-license]: https://poser.pugx.org/Sujith/laravel-sendinblue/license
+[link-packagist]: https://packagist.org/packages/Sujith/laravel-sendinblue
+[link-downloads]: https://packagist.org/packages/Sujith/laravel-sendinblue
+[link-travis]: https://travis-ci.org/Sujith/laravel-sendinblue
+[link-code-quality]: https://scrutinizer-ci.com/g/Sujith/laravel-sendinblue
 [link-styleci]: https://styleci.io/repos/134865450
-[link-coverage]: https://coveralls.io/github/vansteen/laravel-sendinblue?branch=master
-[link-license]: https://github.com/vansteen/laravel-sendinblue/blob/HEAD/license.md
+[link-coverage]: https://coveralls.io/github/Sujith/laravel-sendinblue?branch=master
+[link-license]: https://github.com/Sujith/laravel-sendinblue/blob/HEAD/license.md

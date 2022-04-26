@@ -1,28 +1,28 @@
 <?php
 
 /**
- * @package    Vansteen\Sendinblue
+ * @package    Sujith\Sendinblue
  * @author     Thomas Van Steenwinckel <code@1234.pm>
- * @link       https://github.com/vansteen/laravel-sendinblue
- * @license    https://github.com/vansteen/laravel-sendinblue/blob/master/license.md (MIT License)
+ * @link       https://github.com/Sujith/laravel-sendinblue
+ * @license    https://github.com/Sujith/laravel-sendinblue/blob/master/license.md (MIT License)
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Vansteen\Sendinblue\Tests;
+namespace Sujith\Sendinblue\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use SendinBlue\Client\Configuration;
-use Vansteen\Sendinblue\Facades\Sendinblue;
-use Vansteen\Sendinblue\SendinblueServiceProvider;
+use Sujith\Sendinblue\Facades\Sendinblue;
+use Sujith\Sendinblue\SendinblueServiceProvider;
 
 /**
  * This is the abstract test case class.
  *
  * @category Class
  * @author   Thomas Van Steenwinckel
- * @link     https://github.com/vansteen/sendinblue
+ * @link     https://github.com/Sujith/sendinblue
  */
 class TestCase extends OrchestraTestCase
 {

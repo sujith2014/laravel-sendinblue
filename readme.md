@@ -15,7 +15,7 @@ The package simply provides a Laravel service provider, facade and config file f
 You can install this package via Composer using:
 
 ```bash
-composer require sujith2014/laravel-sendinblue
+composer require sujith/laravel-sendinblue
 ```
 
 For Laravel <5.5, you must also install the service provider and the facade to your `config/app.php`:
